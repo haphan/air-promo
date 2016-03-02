@@ -1,0 +1,4 @@
+services:
+    price_provider.crawler.vietjetair:
+        class: PriceProviderBundle\Services\VietJetAir
+        arguments: ['@logger']
